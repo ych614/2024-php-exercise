@@ -38,6 +38,19 @@
         <input type="radio" id="senior" name="age" value="senior">
         <label for="senior">65 years or older</label>
 
+
+        <p>
+        <label for="ciyt">請選取指定城市：</label>
+  <select name="city" id="city">
+    <option value="TPE">台北市</option>
+    <option value="TPH">新北市</option>
+    <option value="TYC">桃園市</option>
+    <option value="TXG">台中市</option>
+    <option value="TNN">台南市</option>
+    <option value="KHH">高雄市</option>
+  </select>
+  </p>
+
         <p>
             <input type="submit" value="Send" name="submit">
         </p>
@@ -60,6 +73,11 @@
         echo "身分:" . $age;
     }
 
+    if (!empty($_POST)) {
+        echo "<pre>";
+        print_r($_POST);
+        echo "</pre>";
+    }
     ?>
 </body>
 </html>
