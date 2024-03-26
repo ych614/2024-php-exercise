@@ -10,9 +10,19 @@
 
     <form action="" method="post">
 
-        <p>姓名：<input type="text" name="chname" id="" placeholder="請輸入中文姓名" required></p>
-        <p>密碼：<input type="password" name="passwd" id="" placeholder="請設定密碼"></p>
-        <p>身高：<input type="text" name="height" value="" placeholder="請用公分輸入身高"></p>
+        <p>
+            <label for="chname">姓名：</label>
+            <input type="text" name="chname" id="chname" placeholder="請輸入中文姓名" required>
+        </p>
+
+        <p>
+            <label for="passwd">密碼：</label>
+            <input type="password" name="passwd" id="passwd" placeholder="請設定密碼">
+        </p>
+        <p>
+            <label for="height">身高：</label>
+            <input type="text" name="height" id="height" placeholder="請用公分輸入身高">
+        </p>
 
         <input type="submit" value="Send" name="submit">
     </form>
