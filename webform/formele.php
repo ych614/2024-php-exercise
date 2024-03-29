@@ -39,17 +39,19 @@
         <label for="senior">65 years or older</label>
 
 
-        <p>
-        <label for="ciyt">請選取指定城市：</label>
-  <select name="city" id="city">
-    <option value="TPE">台北市</option>
-    <option value="TPH">新北市</option>
-    <option value="TYC">桃園市</option>
-    <option value="TXG">台中市</option>
-    <option value="TNN">台南市</option>
-    <option value="KHH">高雄市</option>
-  </select>
-  </p>
+        
+
+<p>Sandwich Condiments</p>
+<input type="checkbox" name="condiment[]" id="condiment1" value="Lettuce">
+<label for="condiment1">Lettuce</label>
+<input type="checkbox" name="condiment[]" id="condiment2" value="Tomato">
+<label for="condiment2">Tomato</label>
+<input type="checkbox" name="condiment[]" id="condiment3" value="Mustard">
+<label for="condiment3">Mustard</label>
+<input type="checkbox" name="condiment[]" id="condiment4" value="Sprouts">
+<label for="condiment4">Sprouts</label>
+
+<p><input type="submit" value="send"></p>
 
         <p>
             <input type="submit" value="Send" name="submit">
